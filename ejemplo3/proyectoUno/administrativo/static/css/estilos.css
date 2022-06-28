@@ -2,13 +2,16 @@
 
 body {
   /*background: #FEFEFD;*/
-  background: #FEFEFD;
+  background: #fffffd;
   padding: 10px;
 
 }
+section{
+  background: #F4AB14;
+}
 
 header {
-  background: #034275;
+  background: #003F72;
   color: #FFF;
 }
 /* manejo de las características de la etiqueta table*/

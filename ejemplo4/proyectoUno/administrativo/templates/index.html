@@ -21,7 +21,12 @@
 
   {% for e in estudiantes %}
   <tr>
-    <td> {{e}} </td>
+    <td> 
+      {{e.nombre}} </br> 
+      {{e.apellido}}</br> 
+      {{e.cedula}} </br> 
+    </td>
+    
     <td> <a href="{% url 'obtener_estudiante' e.id %}">ver</a> </td>
     <td> <a href="{% url 'editar_estudiante' e.id %}">editar</a> </td>
     <td>
